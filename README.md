@@ -20,7 +20,7 @@ As this is just a custom ImageView and not a custom Drawable or a combination of
 Usage
 -----
 ```xml
-            <de.hdodenhof.circleimageview.CircleImageView
+            <blocke.circleimageview.CircleImageView
                 android:id="@+id/profile_image"
                 android:layout_width="96dp"
                 android:layout_height="96dp"

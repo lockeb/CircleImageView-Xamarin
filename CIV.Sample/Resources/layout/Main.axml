@@ -14,8 +14,8 @@
             android:layout_weight="1"
             android:orientation="horizontal"
             android:background="@android:color/black">
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/profile_image"
+            <blocke.circleimageview.CircleImageView
+              android:id="@+id/profile_image"
                 android:layout_width="96dp"
                 android:layout_height="96dp"
                 android:src="@drawable/homer"
@@ -31,7 +31,7 @@
             android:layout_weight="1"
             android:orientation="horizontal"
             android:background="@android:color/white">
-            <de.hdodenhof.circleimageview.CircleImageView
+            <blocke.circleimageview.CircleImageView
                 android:id="@+id/large_profile_image"
                 android:layout_width="150dp"
                 android:layout_height="150dp" />
@@ -43,7 +43,7 @@
             android:layout_weight="1"
             android:orientation="horizontal"
             android:background="@android:color/black">
-            <de.hdodenhof.circleimageview.CircleImageView
+            <blocke.circleimageview.CircleImageView
                 android:id="@+id/fill_image"
                 android:src="@drawable/profile"
                 android:layout_width="96dp"
