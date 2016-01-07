@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -64,14 +64,12 @@
     <AndroidResource Include="Resources\drawable\homer.jpg" />
     <AndroidResource Include="Resources\drawable\profile.png" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
-  </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\de.hdodenhof.circleimageview\de.hdodenhof.circleimageview.csproj">
-      <Project>{DBA5A9FF-D6FE-4BE7-A8DC-6CC39D8089DA}</Project>
-      <Name>de.hdodenhof.circleimageview</Name>
+    <ProjectReference Include="..\blocke.circleimageview\blocke.circleimageview.csproj">
+      <Project>{4dd58c16-66ce-4373-918a-0fd6e83dc1b3}</Project>
+      <Name>blocke.circleimageview</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -26,16 +26,15 @@ namespace CIV.Sample
 		
 		public static void UpdateIdValues()
 		{
-			global::de.hdodenhof.circleimageview.Resource.Attribute.civ_border_color = global::CIV.Sample.Resource.Attribute.civ_border_color;
-			global::de.hdodenhof.circleimageview.Resource.Attribute.civ_border_overlay = global::CIV.Sample.Resource.Attribute.civ_border_overlay;
-			global::de.hdodenhof.circleimageview.Resource.Attribute.civ_border_width = global::CIV.Sample.Resource.Attribute.civ_border_width;
-			global::de.hdodenhof.circleimageview.Resource.Attribute.civ_fill_color = global::CIV.Sample.Resource.Attribute.civ_fill_color;
-			global::de.hdodenhof.circleimageview.Resource.String.library_name = global::CIV.Sample.Resource.String.library_name;
-			global::de.hdodenhof.circleimageview.Resource.Styleable.CircleImageView = global::CIV.Sample.Resource.Styleable.CircleImageView;
-			global::de.hdodenhof.circleimageview.Resource.Styleable.CircleImageView_civ_border_color = global::CIV.Sample.Resource.Styleable.CircleImageView_civ_border_color;
-			global::de.hdodenhof.circleimageview.Resource.Styleable.CircleImageView_civ_border_overlay = global::CIV.Sample.Resource.Styleable.CircleImageView_civ_border_overlay;
-			global::de.hdodenhof.circleimageview.Resource.Styleable.CircleImageView_civ_border_width = global::CIV.Sample.Resource.Styleable.CircleImageView_civ_border_width;
-			global::de.hdodenhof.circleimageview.Resource.Styleable.CircleImageView_civ_fill_color = global::CIV.Sample.Resource.Styleable.CircleImageView_civ_fill_color;
+			global::blocke.circleimageview.Resource.Attribute.civ_border_color = global::CIV.Sample.Resource.Attribute.civ_border_color;
+			global::blocke.circleimageview.Resource.Attribute.civ_border_overlay = global::CIV.Sample.Resource.Attribute.civ_border_overlay;
+			global::blocke.circleimageview.Resource.Attribute.civ_border_width = global::CIV.Sample.Resource.Attribute.civ_border_width;
+			global::blocke.circleimageview.Resource.Attribute.civ_fill_color = global::CIV.Sample.Resource.Attribute.civ_fill_color;
+			global::blocke.circleimageview.Resource.Styleable.CircleImageView = global::CIV.Sample.Resource.Styleable.CircleImageView;
+			global::blocke.circleimageview.Resource.Styleable.CircleImageView_civ_border_color = global::CIV.Sample.Resource.Styleable.CircleImageView_civ_border_color;
+			global::blocke.circleimageview.Resource.Styleable.CircleImageView_civ_border_overlay = global::CIV.Sample.Resource.Styleable.CircleImageView_civ_border_overlay;
+			global::blocke.circleimageview.Resource.Styleable.CircleImageView_civ_border_width = global::CIV.Sample.Resource.Styleable.CircleImageView_civ_border_width;
+			global::blocke.circleimageview.Resource.Styleable.CircleImageView_civ_fill_color = global::CIV.Sample.Resource.Styleable.CircleImageView_civ_fill_color;
 		}
 		
 		public partial class Attribute
@@ -139,14 +138,17 @@ namespace CIV.Sample
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050002
-			public const int app_name = 2131034114;
-			
 			// aapt resource value: 0x7f050001
-			public const int hello = 2131034113;
+			public const int ApplicationName = 2131034113;
 			
 			// aapt resource value: 0x7f050000
-			public const int library_name = 2131034112;
+			public const int Hello = 2131034112;
+			
+			// aapt resource value: 0x7f050003
+			public const int app_name = 2131034115;
+			
+			// aapt resource value: 0x7f050002
+			public const int hello = 2131034114;
 			
 			static String()
 			{

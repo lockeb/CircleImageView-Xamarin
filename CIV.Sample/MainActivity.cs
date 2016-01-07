@@ -2,7 +2,7 @@
 using Android.Graphics;
 using Android.OS;
 using Android.Widget;
-using de.hdodenhof.circleimageview;
+using blocke.circleimageview;
 
 namespace CIV.Sample
 {

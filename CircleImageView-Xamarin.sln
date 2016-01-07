@@ -3,15 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de.hdodenhof.circleimageview", "de.hdodenhof.circleimageview\de.hdodenhof.circleimageview.csproj", "{DBA5A9FF-D6FE-4BE7-A8DC-6CC39D8089DA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIV.Sample", "CIV.Sample\CIV.Sample.csproj", "{DB558A87-274A-4904-818E-7F958DDC6641}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F35C6410-53F7-4DCC-BC3C-FC465516C761}"
 	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
 		README.md = README.md
 		screenshot.png = screenshot.png
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blocke.circleimageview", "blocke.circleimageview\blocke.circleimageview.csproj", "{4DD58C16-66CE-4373-918A-0FD6E83DC1B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +20,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DBA5A9FF-D6FE-4BE7-A8DC-6CC39D8089DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBA5A9FF-D6FE-4BE7-A8DC-6CC39D8089DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBA5A9FF-D6FE-4BE7-A8DC-6CC39D8089DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBA5A9FF-D6FE-4BE7-A8DC-6CC39D8089DA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB558A87-274A-4904-818E-7F958DDC6641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DB558A87-274A-4904-818E-7F958DDC6641}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB558A87-274A-4904-818E-7F958DDC6641}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{DB558A87-274A-4904-818E-7F958DDC6641}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB558A87-274A-4904-818E-7F958DDC6641}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB558A87-274A-4904-818E-7F958DDC6641}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4DD58C16-66CE-4373-918A-0FD6E83DC1B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD58C16-66CE-4373-918A-0FD6E83DC1B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD58C16-66CE-4373-918A-0FD6E83DC1B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD58C16-66CE-4373-918A-0FD6E83DC1B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
