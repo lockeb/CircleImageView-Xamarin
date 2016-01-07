@@ -49,22 +49,6 @@ namespace de.hdodenhof.circleimageview
 			}
 		}
 		
-		public partial class String
-		{
-			
-			// aapt resource value: 0x7f020000
-			public static int library_name = 2130837504;
-			
-			static String()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private String()
-			{
-			}
-		}
-		
 		public partial class Styleable
 		{
 			
