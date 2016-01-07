@@ -1,4 +1,4 @@
-#Xamarin C# port of CicrleImageView
+#Xamarin C# port of CircleImageView
 
 Ported from https://github.com/hdodenhof/CircleImageView
 
