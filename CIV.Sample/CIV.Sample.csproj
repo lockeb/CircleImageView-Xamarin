@@ -67,7 +67,7 @@
   <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\blocke.circleimageview\blocke.circleimageview.csproj">
-      <Project>{4dd58c16-66ce-4373-918a-0fd6e83dc1b3}</Project>
+      <Project>{4DD58C16-66CE-4373-918A-0FD6E83DC1B3}</Project>
       <Name>blocke.circleimageview</Name>
     </ProjectReference>
   </ItemGroup>
