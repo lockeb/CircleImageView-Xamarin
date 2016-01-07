@@ -31,6 +31,22 @@ Usage
                 app:civ_fill_color="@android:color/black"  />
 ```
 
+```C#
+			var largeprofileimage = FindViewById<CircleImageView>(Resource.Id.large_profile_image);
+			var fillimage = FindViewById<CircleImageView>(Resource.Id.fill_image);
+
+			largeprofileimage.SetImageResource(Resource.Drawable.homer);
+			largeprofileimage.SetBorderColor(Color.Blue);
+			largeprofileimage.SetBorderWidth(20);
+			largeprofileimage.SetBorderOverlay(true);
+
+			fillimage.SetImageResource(Resource.Drawable.profile);
+			fillimage.SetFillColor (Color.OrangeRed);
+			fillimage.SetBorderColor (Color.ForestGreen);
+			fillimage.SetBorderWidth (10);
+			fillimage.SetBorderOverlay (true);
+
+```
 Limitations
 -----------
 * The ScaleType is always CENTER_CROP and you'll get an exception if you try to change it. This is (currently) by design as it's perfectly fine for profile images.
@@ -68,4 +84,4 @@ Changelog
     * Initial release
 
 ## Credits
-Henning Dodenhof for create its library [CircleImageView](https://github.com/hdodenhof/CircleImageView).
+Henning Dodenhof for create its library [FloatingActionButton](https://github.com/hdodenhof/CircleImageView).
