@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "de.hdodenhof.circleimagevie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIV.Sample", "CIV.Sample\CIV.Sample.csproj", "{DB558A87-274A-4904-818E-7F958DDC6641}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F35C6410-53F7-4DCC-BC3C-FC465516C761}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		screenshot.png = screenshot.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
